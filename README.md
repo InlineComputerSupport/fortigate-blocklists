@@ -9,3 +9,7 @@
 ```asn_blockX.Y.txt``` --> these are the resulting files made when running the ```ASN_block_lists_all.php``` script. any one Fortigate external threat feed can only handle 131,000 entires, and the script ensures the files are maxed out and aggregates evereything into as few files as possible
 
 ```manual_block_list.txt``` --> list of IPs that have tried to force a username/password on my fortigate but that i either cannot find their ASN, or their ASN is a large telecom provider and i do not wish to block. this is used on my Fortigate SSL_VPN loop back interface
+
+
+
+reference: https://old.reddit.com/r/fortinet/comments/1bfg1zm/best_way_to_mitigate_sslvpn_brute_force/kv1b6ml/
